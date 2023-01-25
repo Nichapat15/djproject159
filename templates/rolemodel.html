@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+{% block content %}
+    <br>
+    <body bgcolor="#ffc0cb"></body>
+
+    <div class="row text">
+        <div class="col-lg-3">
+            <img src="{% static 'images/bk.jpg' %}" width="320px" height="400px">
+        </div>
+
+        <div class="col-lg-9">
+            <div class="mt-1 p-4 text-white rounded" style="background-color: #51C2D5">
+                <h5><b>บิล เกตส์ (Bill Gates)  </b></h5>
+                <p class="alert alert-info">ชายผู้ก่อตั้งบริษัท Microsoft เลือกจะดรอปเรียนจากมหาวิทยาลัย Harvard แล้วมุ่งมั่นเปิดบริษัทผลิตซอฟต์แวร์เป็นของตัวเอง เพราะเขาชื่นชอบและเริ่มเขียนโปรแกรมมาตั้งแต่อายุ 13 ปี ทำให้เมื่อเห็นลู่ทาง จึงไม่รอช้าที่จะเดินหน้าอย่างเต็มที่ ซึ่ง บิล เกตส์ เคยบอกไว้ว่าหากวันนั้น Microsoft ล้มเหลว เขาก็ยังสามารถกลับมาเรียนต่อในมหาวิทยาลัยได้เสมอ  </p>
+            </div>
+
+            <div class="mt-3 p-4 text-white rounded" style="background-color: #FD464A">
+                <p class="alert alert-warning">จากการจัดอันดับของนิตยสารฟอร์บส์ บิล เกตส์ เป็นมหาเศรษฐีอันดับ 2 ของโลก ด้วยมูลค่าทรัพย์สิน 96,500 ล้านดอลลาร์ (3.08 ล้านล้านบาท) นอกจากนี้ เขายังก่อตั้งมูลนิธิ "Bill and Melinda Gates" เพื่อช่วยเหลือปัญหาทางสังคมอีกด้วย "</p>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

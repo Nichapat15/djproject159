@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{% load static %}
+{% load fontawesome_5 %}
+{% fontawesome_5_static %}
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet"href="{% static 'Stylesheets/bt111/css/bootstrap.css' %}">
+    <script src="{% static 'Stylesheets/bt111/js/bootstrap.bundle.js'  %}"></script>
+    <title>Title</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row bg-danger">
+            <div class="col-lg-12">
+            {% include 'header.html' %}
+        </div>
+      </div>
+        <div class="row">
+            <div class="col-lg-12 bg-white">
+                {% block content %}
+
+                {% endblock %}
+
+
+    </div>
+      </div>
+        </div>
+</body>
+</html>

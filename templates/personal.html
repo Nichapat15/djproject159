@@ -1,0 +1,101 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+{% load static %}
+{% block content %}
+     <br>
+    <div class="container-fluid text-warning text-bg-light">
+        <h1><img class='card-img-top' style="height: 400px" src="{% static 'images/3.jpg' %}" alt="Card image"></h1>
+        <p>
+</div>
+    <div class="container-fluid">
+        <div class="row bg-white">
+            <div class="col-lg-8">
+                <br>
+                <br>
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" style="background-color: #F8444F">
+                            <a class="btn text-white" data-bs-toggle="collapse" href="#collapseOne">
+                                <h5>ประวัติส่วนตัว</h5>
+                            </a>
+                        </div>
+                        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body"><h6>
+                                &nbsp &nbsp &nbsp &nbsp * ชื่อ-สกุล : นางสาวณิชาภัทร ไชยธงรัตน์ (Ms.Nichapat Chaithongrat)<br>
+                                &nbsp &nbsp &nbsp &nbsp * ชื่อเล่น : ต้นอ้อ (TonAor)<br>
+                                &nbsp &nbsp &nbsp &nbsp * วัน เดือน ปี เกิด : 15 กุมภาพันธ์ พ.ศ. 2545 (15 Feb 2002)<br>
+                                &nbsp &nbsp &nbsp &nbsp * อายุ : 20 ปี <br>
+                                &nbsp &nbsp &nbsp &nbsp * สัญชาติ : ไทย (Thai)<br>
+                                &nbsp &nbsp &nbsp &nbsp * เชื้อชาติ : ไทย (Thai)<br>
+                                &nbsp &nbsp &nbsp &nbsp * ศาสนา : พุทธ (Buddhism)<br>
+                                &nbsp &nbsp &nbsp &nbsp * ที่อยู่ : บ้านเลขที่ 85/1 หมู่ 1 ตำบลค้อเหนือ อำเภอเมือง
+                                จังหวัดยโสธร 35000 <br>
+                            </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="card">
+                        <div class="card-header" style="background-color: #C0EA6A">
+                            <a class="btn text-white" data-bs-toggle="collapse" href="#collapseTwo">
+                                <h5>ประวัติครอบครัว</h5>
+                            </a>
+                        </div>
+                        <div id="collapseTwo" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <h6>
+                                    &nbsp &nbsp &nbsp &nbsp * บิดาชื่อ : นายอำนวยวิทย์ ไชยธงรัตน์ <br>
+                                    &nbsp &nbsp &nbsp &nbsp * มารดาชื่อ : นางศรีสุดา ไชยธงรัตน์<br>
+                                    &nbsp &nbsp &nbsp &nbsp * มีพี่น้องทั้งหมด 2 คน ผู้ชาย 1 คน ดิฉันเป็นพี่คนโต<br>
+                                    &nbsp &nbsp &nbsp &nbsp * ที่อยู่ : บ้านเลขที่ 85/1 หมู่ 1 ตำบลค้อเหนือ
+                                    อำเภอเมือง จังหวัดยโสธร 35000 <br>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+
+                    <div class="card">
+                        <div class="card-header" style="background-color: #FFCC59">
+                            <a class="btn text-white" data-bs-toggle="collapse" href="#collapseThree">
+                                <h5>งานอดิเรก</h5>
+                            </a>
+                        </div>
+                        <div id="collapseThree" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body">
+                                <h6>
+                                    &nbsp &nbsp &nbsp &nbsp * ดูหนัง (ซีรี่ย์เกาหลี,ฟังเพลง)<br>
+                                    &nbsp &nbsp &nbsp &nbsp * ฟังเพลง (แนวเพลง ลูกทุ่ง,เพื่อชีวิต)<br>
+                                    &nbsp &nbsp &nbsp &nbsp * อ่านหนังสือ<br>
+                                    &nbsp &nbsp &nbsp &nbsp * เล่นเกม (ROV,Hay Day)<br>
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+
+                    <div class="card">
+                        <div class="card-header" style="background-color: #5EE2F1">
+                            <a class="btn text-white" data-bs-toggle="collapse" href="#collapseFour">
+                                <h5>คติประจำใจ</h5>
+                            </a>
+                        </div>
+                        <div id="collapseFour" class="collapse show" data-bs-parent="#accordion">
+                            <div class="card-body text-center">
+                                <h5>"That which is hateful to you, do not do to others."</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4"> <br> <br>
+                <img class="card-img-top" style="height:350px" src="{% static 'images/ppp.png' %}" alt="Card" ></div>
+
+             </div>
+         </div>
+
+
+{% endblock %}

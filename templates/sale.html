@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+<!DOCTYPE html>
+{% load static %}
+{% block content %}
+     <div class="mt-4 p-5 text-white rounded text-center" style="background-color: #F8444F">
+        <h1>Welcome to Shopping </h1>
+    </div><br>
+   <div class="row text">
+        &nbsp &nbsp &nbsp
+            <div class="card" style="width:300px">
+              <img class="card-img-top" src="{% static 'images/b1.jpg' %}" alt="Card image">
+              <div class="card-body">
+                <h3 class="card-title text-dark">PIENI UNIKKO BAG 44X43CM ฿1,320.00</h3>
+                <p class="card-text"></p>
+                <a href="#" class="btn btn-success">สั่งซื้อ</a>
+              </div>
+            </div>
+        &nbsp &nbsp &nbsp
+            <div class="card" style="width:300px">
+              <img class="card-img-top" src="{% static 'images/b2.jpg' %}" alt="Card image">
+              <div class="card-body">
+                <h3 class="card-title text-dark">PIENI UNIKKO BAG 44X43CM ฿1,320.00 </h3>
+                <p class="card-text"></p>
+                <a href="#" class="btn btn-success">สั่งซื้อ</a>
+              </div>
+            </div>
+        &nbsp &nbsp &nbsp
+            <div class="card" style="width:300px">
+              <img class="card-img-top" src="{% static 'images/b3.jpg' %}" alt="Card image">
+              <div class="card-body">
+                <h3 class="card-title text-dark">PIENI UNIKKO BAG 44X43 CM ฿1,496.00</h3>
+                <p class="card-text"></p>
+                <a href="#" class="btn btn-success">สั่งซื้อ</a>
+              </div>
+            </div>
+        &nbsp &nbsp &nbsp
+            <div class="card" style="width:300px">
+              <img class="card-img-top" src="{% static 'images/b4.jpg' %}" alt="Card image">
+              <div class="card-body"><br>
+                <h3 class="card-title text-dark">Kompotti Bag 44X43cm ฿1,496.00</h3>
+                <p class="card-text"></p><br><br><br><br>
+                <a href="#" class="btn btn-success">สั่งซื้อ</a>
+              </div>
+            </div>
+        </div>
+    </body>
+    </html>
+
+{% endblock %}
