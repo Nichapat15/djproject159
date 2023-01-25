@@ -52,5 +52,5 @@ def showMyData(request):
     context = {'showID':showID,'showName':showName,'showAddress':showAddress,'showtel':showtel,
                'showgender':showgender,'showBirthday':showBirthday,'showWeight':showWeight,'showHeight':showHeight,
                'showstatus':showstatus,'showSchool':showSchool, 'products':products}
-    return render(request,'showMyData.html',context)
+    return render(request, 'showMyData.html', context)
 
