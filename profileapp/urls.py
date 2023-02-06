@@ -10,5 +10,6 @@ urlpatterns = [
     path('rolemodel',views.rolemodel,name='rolemodel'),
     path('interests',views.interests,name='interests'),
     path('showMyData', views.showMyData, name='showMyData'),
-
+    path('listproduct', views.listproduct, name='listproduct'),
+    path('inputproduct', views.inputproduct, name='inputproduct'),
 ]
